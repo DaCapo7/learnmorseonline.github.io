@@ -4,7 +4,7 @@ let button,
   hdejapris = [],
   wdejapris = [];
 let htext =
-  "created by Dacapo, January, 20th 2021<br><a href='https://github.com/DaCapo7' target='blank'>Github</a><br><br>In ancient times, a king had his men place a boulder on a roadway. He then hid in the bushes, and watched to see if anyone would move the boulder out of the way. Some of the king's wealthiest merchants and courtiers passed by and simply walked around it.Many people blamed the King for not keeping the roads clear, but none of them did anything about getting the stone removed.One day, a peasant came along carrying vegetables. Upon approaching the boulder, the peasant laid down his burden and tried to push the stone out of the way. After much pushing and straining, he finally managed.After the peasant went back to pick up his vegetables, he noticed a purse lying in the road where the boulder had been. The purse contained many gold coins and note from the King explain that the gold was for the person who removed the boulder from the road.";
+  "Created by Dacapo, January, 20th 2021<br><br><a href='https://github.com/DaCapo7' target='blank'>Github</a><br><br>A very thanks to this <a href='https://discord.gg/CMygzPTFBv'>Discord</a> <br>For all the help the members gave me!";
 let discover = new Audio("sounds/discover.wav"),
   isdiscoverednow = false;
 let youhou = new Audio("sounds/youhou.mp3");
@@ -37,7 +37,7 @@ var playdiscover = async function () {
 var whilego = async function () {
   document.getElementById("divtoappendeaster").before(credittext);
   credittext.innerHTML = htext;
-  credittext.style = "font-size : 50px; text-align:center;padding:30px;";
+  credittext.style = "font-size : 80px; text-align:center;padding:30px;";
   youhou.play();
   youhou.volume = 0.2;
 
