@@ -1,0 +1,298 @@
+#tabbar{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(219, 219, 219);
+    position: sticky;
+}
+body{
+    margin: 0px;
+    overflow-x: hidden;
+}
+#tabbar span{
+    display: inline-block;
+    height: 100%;
+    width: 24%;
+    text-align: center;
+}
+
+#tabbar span:hover{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+#tabbar span p{
+    display:block;
+}
+
+#labelbar{
+    display: grid;
+    grid-template-columns: 100px auto;
+    grid-template-rows: 100px;
+}
+#labelbar img{
+    width: 90px;
+    grid-column: 1;
+    height: auto;
+    margin: 5px;
+}
+
+#urltext{
+    font-size: 100px;
+    text-align: left;
+    grid-column: 2;
+}
+#urltext p{
+    position:relative;
+    top: -110px;
+    left: 40px;
+}
+
+#input1, #output1{
+    width : 70%;
+    height: 20px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+#translatetab label{
+    margin-top: 10px;
+    display: block;
+    margin-left: 10px;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+#history{
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 5px;
+}
+#history p{
+    font-size: 20px;
+}
+#history p img{
+    height: 200px;
+    width: auto;
+    float: left;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    
+}
+#morseextab,#exmorsetab{
+    margin: 1%;
+    width: 98%;
+    max-height: 10%;
+    display:grid;
+    grid-template-columns: 30% 30% 5% 35%;
+    grid-template-rows: 600px;
+    
+}
+
+#mtgame, #tmgame{
+    border: 1px solid black;
+    display: grid;
+    
+}
+#mtseen, #tmseen{
+    border: 1px solid black;
+    background-color: aliceblue;
+}
+
+#mtwriten, #tmwriten{
+    border: 1px solid black; 
+}
+
+#mtmorsecodehelp, #tmmorsecodehelp{
+    border: 2px solid black;
+    
+}
+
+#mtmorsecodehelp img, #tmmorsecodehelp img{
+    margin: 5%;
+    width: 90%;
+    visibility: hidden;
+}
+
+#mtrulesandscore, #tmrulesandscore{
+    background-color: rgb(247, 225, 192);
+    padding: 20px;
+    background: black;
+    color: aliceblue;
+    border-radius: 10px 0px 10px 0px;
+}
+
+#mtrulesandscore h2, #tmscore{
+    font-size: 30px;
+    border: 1px solid white;
+    padding: 5px;
+    text-align: center;
+}
+
+#mtrulesandscore  ul, #tmrulesandscore ul{
+    color: #50FFFF; font-size: 25px;
+    text-shadow:
+    0px 0px 2px #1040FF,
+    -2px -2px 2px #1040FF,
+    2px -2px 2px #1040FF,
+    -2px 2px 2px #1040FF,
+    2px 2px 2px #1040FF;
+}
+
+
+
+#mtplay.active.focus,
+#mtplay.active:focus,
+#mtplay.focus,
+#mtplay:active.focus,
+#mtplay:active:focus,
+#mtplay:focus,
+#mtl1.active.focus,
+#mtl1.active:focus,
+#mtl1.focus,
+#mtl1:active.focus,
+#mtl1:active:focus,
+#mtl1:focus,
+#mtl2.active.focus,
+#mtl2.active:focus,
+#mtl2.focus,
+#mtl2:active.focus,
+#mtl2:active:focus,
+#mtl2:focus,
+
+#tmplay.active.focus,
+#tmplay.active:focus,
+#tmplay.focus,
+#tmplay:active.focus,
+#tmplay:active:focus,
+#tmplay:focus,
+#tml1.active.focus,
+#tml1.active:focus,
+#tml1.focus,
+#tml1:active.focus,
+#tml1:active:focus,
+#tml1:focus,
+#tml2.active.focus,
+#tml2.active:focus,
+#tml2.focus,
+#tml2:active.focus,
+#tml2:active:focus,
+#tml2:focus
+{
+  outline: none;
+  box-shadow: 0px 0px 18px  #5197ff;  
+  background-color: none;
+}
+
+#mtplay, #tmplay{
+    width: 80%;
+    height: 50px;
+    margin: 10%;
+    font-size: 30px;
+    color: #50FFFF; font-size: 25px;
+    text-shadow:
+    0px 0px 2px #1040FF,
+    -2px -2px 2px #1040FF,
+    2px -2px 2px #1040FF,
+    -2px 2px 2px #1040FF,
+    2px 2px 2px #1040FF;
+    background: linear-gradient(rgb(51, 51, 51),black,rgb(51, 51, 51));
+    box-shadow: 0px 0px 6px  #5197ff;
+}
+/*
+#mtplay:active{
+    
+}*/
+#mtl1, #mtl2,
+#tml1, #tml2{
+    width: 50%;
+    font-size: 15px;
+    color: #50FFFF; 
+    text-shadow:
+    0px 0px 2px #1040FF,
+    -2px -2px 2px #1040FF,
+    2px -2px 2px #1040FF,
+    -2px 2px 2px #1040FF,
+    2px 2px 2px #1040FF;
+    background: linear-gradient(rgb(51, 51, 51),black,rgb(51, 51, 51));
+    box-shadow: 0px 0px 6px  #5197ff;
+}
+
+#mtlife1, #mtlife3,
+#tmlife1, #tmlife3{
+    background-color: #5ff;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    transition: background 1s ,box-shadow 1s;
+    box-shadow: 0 0 15px #10c7ff;
+}
+#mtlife2, #tmlife2{
+    background-color: #5ff;
+    border-radius: 15px;
+    height: 30px;
+    width: 110px;
+    display: inline-block;
+    margin: 0px 20px;
+    box-shadow: 0 0 15px #10c7ff;
+    transition: background 1s ,box-shadow 1s;
+}
+#mtlives, #tmlives{
+    margin: 0 auto;
+    width: fit-content;
+}
+
+@keyframes togreen{
+    0%{color : 'black'};
+    100%{color : 'green'};
+}
+
+#mtwriten, #tmwriten{
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: center;
+}
+
+#tmblankcounter{
+    width: 90%;
+    height: 10px;
+    margin: 0% 5%;
+    transform: translatey(-10px);
+    background-color:rgb(52, 58, 110);
+    border-radius: 2px;
+}
+#tmcountercharge{
+    height: 10px;
+    border-radius: 2px;
+    box-shadow: 0px 0px 5px rgb(149, 255, 250);
+    background-color:rgb(96, 224, 217);
+    position: relative;
+}
+
+#tmcounter{
+    font-size: 30px;
+    text-align: center;
+    transform: translatey(-10px);
+}
+
+#tmmorsecodewriten{
+    font-size: 30px;
+    position: relative;
+}
+
+#sourcehistory{
+    padding: 30px;
+    margin: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+@keyframes turn {
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
+}
+/*#document {background: #ce0000
